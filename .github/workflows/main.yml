@@ -1,0 +1,16 @@
+# Define variables for the events and relationships
+wolf_reintroduction = True
+elk_populations = "decreased"
+vegetation = "increased"
+beaver_populations = "increased"
+
+# Check if wolf reintroduction occurred
+if wolf_reintroduction:
+  # If wolf reintroduction occurred, check if elk populations decreased
+  if elk_populations == "decreased":
+    # If elk populations decreased, check if vegetation increased
+    if vegetation == "increased":
+      # If vegetation increased, check if beaver populations increased
+      if beaver_populations == "increased":
+        # If all conditions are met, print message indicating the sequence of events
+        print("The reintroduction of wolves caused a decrease in elk populations, which resulted in an increase in vegetation, which allowed for an increase in beaver populations.")
